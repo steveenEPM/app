@@ -1,0 +1,18 @@
+{
+  "name": "app-cyber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "restart": "npm  install -g live-server",
+    "start": "live-server --port=8080 --open=index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "html-webpack-plugin": "^5.6.3",
+    "live-server": "^1.2.2"
+  }
+}

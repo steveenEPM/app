@@ -1,0 +1,53 @@
+
+
+h1{
+    font-size: 48px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 2%;
+    background-color: transparent;
+
+}
+
+h2 {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.Consejos {
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap:20px;
+}
+
+.Consejos div {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid wheat;
+    padding: 2% 6%;
+    border-radius: 8px;
+}
+
+.Consejos div h3{
+    font-size: 23px;
+    
+}
+
+.Consejos div:nth-child(1){
+    background-color: #3d4790;
+
+}
+
+.Consejos div:nth-child(2){
+    background-color: #242847;
+}
+
+.container2 {
+    margin-top: 40px;
+    background-color:#242847;
+    padding: 3% 2%;
+    border-radius: 7px;
+}
